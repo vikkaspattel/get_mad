@@ -4,4 +4,4 @@ Get Mad is a customized version of the GetX package, designed to enhance the ori
 
 ## Documentation
 
-For comprehensive information, refer to the [original GetX documentation](https://getx.io/en/).
+For comprehensive information, refer to the [original GetX documentation](https://pub.dev/packages/get/).

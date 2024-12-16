@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  animations: any
+  animations: ^2.0.11
 
 dev_dependencies:
   flutter_lints: ^5.0.0

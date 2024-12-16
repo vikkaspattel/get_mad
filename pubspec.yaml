@@ -1,0 +1,20 @@
+name: get_mad
+description: 'Mad version forked from original GetX package 4.6.6.'
+version: 0.0.1
+homepage: 'https://github.com/vikkaspattel/get_mad'
+
+environment:
+  sdk: ">=2.15.0 <4.0.0"
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animations: any
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:

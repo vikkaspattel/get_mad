@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+import 'package:get_mad/get.dart';
 
 import '../../../instance_manager.dart';
 import '../../../utils.dart';
@@ -31,11 +32,14 @@ import 'get_widget_cache.dart';
 /// }
 ///``
 abstract class GetView<T> extends StatelessWidget {
-  const GetView({Key? key}) : super(key: key);
+  GetView({super.key});
 
-  final String? tag = null;
+  final Map<String,String?> _tag = {'tag':null};
 
-  T get controller => GetInstance().find<T>(tag: tag)!;
+  T get controller => GetInstance().find<T>(tag: _tag['tag'])!;
+  String? get tag  => _tag['tag'];
+
+  set tagValue(String? value) => _tag['tag'] = value;
 
   @override
   Widget build(BuildContext context);
@@ -48,7 +52,7 @@ abstract class GetView<T> extends StatelessWidget {
 /// GetWidget will have your own controller, and will be call events as `onInit`
 /// and `onClose` when the controller get in/get out on memory.
 abstract class GetWidget<S extends GetLifeCycleBase?> extends GetWidgetCache {
-  const GetWidget({Key? key}) : super(key: key);
+  const GetWidget({super.key});
 
   @protected
   final String? tag = null;

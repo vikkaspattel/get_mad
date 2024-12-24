@@ -1,3 +1,7 @@
+## [0.0.4]
+
+improvements and cleanups
+
 ## [0.0.3]
 
 change readme

@@ -232,7 +232,6 @@ class GetCupertinoApp extends StatelessWidget {
                 routeInformationParser: routeInformationParser!,
                 backButtonDispatcher: backButtonDispatcher,
                 routeInformationProvider: routeInformationProvider,
-                key: _.unikey,
                 theme: theme,
                 builder: defaultBuilder,
                 title: title,
@@ -252,7 +251,6 @@ class GetCupertinoApp extends StatelessWidget {
                 // useInheritedMediaQuery: useInheritedMediaQuery,
               )
             : CupertinoApp(
-                key: _.unikey,
                 theme: theme,
                 navigatorKey: (navigatorKey == null
                     ? Get.key

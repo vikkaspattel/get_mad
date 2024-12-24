@@ -15,12 +15,12 @@ class GetMaterialController extends SuperController {
   bool defaultOpaqueRoute = true;
 
   Transition? defaultTransition;
-  Duration defaultTransitionDuration = const Duration(milliseconds: 300);
+  Duration defaultTransitionDuration = const Duration(milliseconds: 500);
   Curve defaultTransitionCurve = Curves.easeOutQuad;
 
   Curve defaultDialogTransitionCurve = Curves.easeOutQuad;
 
-  Duration defaultDialogTransitionDuration = const Duration(milliseconds: 300);
+  Duration defaultDialogTransitionDuration = const Duration(milliseconds: 500);
 
   final routing = Routing();
 

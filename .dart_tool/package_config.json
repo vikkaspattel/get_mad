@@ -81,7 +81,7 @@
     },
     {
       "name": "lints",
-      "rootUri": "file:///C:/Users/Vikas/AppData/Local/Pub/Cache/hosted/pub.dev/lints-5.1.0",
+      "rootUri": "file:///C:/Users/Vikas/AppData/Local/Pub/Cache/hosted/pub.dev/lints-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.6"
     },
@@ -164,16 +164,22 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "web",
+      "rootUri": "file:///C:/Users/Vikas/AppData/Local/Pub/Cache/hosted/pub.dev/web-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "get_mad",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.15"
+      "languageVersion": "2.17"
     }
   ],
-  "generated": "2024-12-16T18:15:25.267973Z",
+  "generated": "2024-12-24T20:02:17.611960Z",
   "generator": "pub",
   "generatorVersion": "3.6.0",
   "flutterRoot": "file:///C:/src/flutter",
-  "flutterVersion": "3.27.0",
+  "flutterVersion": "3.27.1",
   "pubCache": "file:///C:/Users/Vikas/AppData/Local/Pub/Cache"
 }

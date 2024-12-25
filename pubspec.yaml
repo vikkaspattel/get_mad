@@ -1,6 +1,6 @@
 name: get_mad
 description: 'Mad version forked from original GetX package 4.6.6.'
-version: 0.0.4
+version: 0.0.5
 homepage: 'https://github.com/vikkaspattel/get_mad'
 
 environment:

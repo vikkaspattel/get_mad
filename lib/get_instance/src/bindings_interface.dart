@@ -7,6 +7,9 @@ import 'get_instance.dart';
 /// dependencies() (via Get.put()) for the Route you are opening.
 // ignore: one_member_abstracts
 abstract class Bindings {
+  final Map<String,String?> _tag = {'tag':null};
+  String? get tag  => _tag['tag'];
+  set tagValue(String? value) => _tag['tag'] = value;
   void dependencies();
 }
 

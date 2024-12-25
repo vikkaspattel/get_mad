@@ -10,7 +10,7 @@ while maintaining the core principles.**
 
 ## Why mad
 
-* Of-course if you are using an unofficial version of [get_cli](https://pub.dev/packages/get_cli)
+* Of-course if you are using an unofficial version of [get](https://pub.dev/packages/get)
   from unknown developer would indicates you are mad.
 * So, here package is not mad, the person who is willing to take risk is mad and this package is
   just for them.

@@ -582,8 +582,9 @@ Cannot read the previousTitle for a route that has not yet been installed''',
 
         case Transition.androidNative:
           return SharedAxisPageTransitionsBuilder(
-                  transitionType: SharedAxisTransitionType.horizontal, fillColor: context.isDarkMode ? Theme.of(context).colorScheme.background : Colors.white)
-              .buildTransitions(
+            transitionType: SharedAxisTransitionType.horizontal,
+            fillColor: context.isDarkMode ? Theme.of(context).colorScheme.surface : Theme.of(context).colorScheme.surfaceContainerHighest,
+          ).buildTransitions(
             route,
             context,
             animation,

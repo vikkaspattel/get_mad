@@ -1,3 +1,6 @@
+## [0.0.7]
+changed background color for shared axis animation
+
 ## [0.0.5 - 0.0.6]
 updated readme
 
